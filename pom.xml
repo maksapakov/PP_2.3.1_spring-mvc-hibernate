@@ -51,7 +51,7 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>
-            <artifactId>spring-core</artifactId>
+            <artifactId>spring-framework-bom</artifactId>
             <version>5.3.23</version>
         </dependency>
         <dependency>

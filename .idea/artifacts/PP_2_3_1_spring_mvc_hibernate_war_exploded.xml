@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="PP_2.3.1_spring-mvc-hibernate:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/PP_2_3_1_spring_mvc_hibernate_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="PP_2.3.1_spring-mvc-hibernate/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="PP_2.3.1_spring-mvc-hibernate" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

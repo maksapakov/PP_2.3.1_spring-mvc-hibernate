@@ -32,7 +32,7 @@ public class AppConfig {
     @Bean
     public DataSource getDataSource() {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
-        dataSource.setUrl("jdbc:mysql://localhost:3306/");
+        dataSource.setUrl("jdbc:mysql://localhost:3306/katadbtest");
         dataSource.setUsername("root");
         dataSource.setPassword("mypass");
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");

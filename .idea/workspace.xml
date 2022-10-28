@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AnalysisUIOptions">
-    <option name="GROUP_BY_SEVERITY" value="true" />
-  </component>
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
+      <artifact name="PP_2.3.1_spring-mvc-hibernate:war" />
       <artifact name="PP_2.3.1_spring-mvc-hibernate:war exploded" />
     </artifacts-to-build>
   </component>
@@ -12,44 +10,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d04c7495-5bed-4370-8e2a-b3f3f9fa9605" name="Changes" comment="ver.0.1">
+    <list default="true" id="eaf76f38-bee0-41b7-9744-f6b76c7b1a1f" name="Changes" comment="ver.0.3">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/PP_2_3_1_spring_mvc_hibernate_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/userList.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/PP_2_3_1_spring_mvc_hibernate_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/PP_2_3_1_spring_mvc_hibernate_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/PP_2_3_1_spring_mvc_hibernate_war_exploded2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/config/AppConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/config/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/META-INF/context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/controller/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/editUser.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeInsightWorkspaceSettings">
-    <option name="optimizeImportsOnTheFly" value="true" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-        <option value="Interface" />
-        <option value="HTML File" />
-        <option value="spring-beans.schema" />
-        <option value="Tag Library Descriptor" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="HttpClientSelectedEnvironments">
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/PP_2_3_1_spring_mvc_hibernate-endpoints_1.http" />
+    <file url="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/get-requests.http" environment="test" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -58,77 +42,43 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
-  <component name="ProjectId" id="2GZGjgiMTMkQCOqWF6Nz6GwYvdR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/ПТО/IdeaProjects/PP_2.3.1_spring-mvc-hibernate/src/main/webapp/WEB-INF",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2408889",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "51f460706db30f6cffe9f7a8a157f25c"
-  },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
-    ]
+    "settings.editor.selected.configurable": "configurable.group.editor"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ПТО\IdeaProjects\PP_2.3.1_spring-mvc-hibernate\src\main\webapp\WEB-INF" />
-      <recent name="C:\Users\ПТО\IdeaProjects\PP_2.3.1_spring-mvc-hibernate\web\WEB-INF" />
-      <recent name="C:\Users\ПТО\IdeaProjects\PP_2.3.1_spring-mvc-hibernate\src\test" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ПТО\IdeaProjects\PP_2.3.1_spring-mvc-hibernate\src\main" />
-      <recent name="C:\Users\ПТО\IdeaProjects\PP_2.3.1_spring-mvc-hibernate\src" />
-      <recent name="C:\Users\ПТО\IdeaProjects\PP_2.3.1_spring-mvc-hibernate\src\main\webapp\WEB-INF\pages" />
-      <recent name="C:\Users\ПТО\IdeaProjects\PP_2.3.1_spring-mvc-hibernate\src\test" />
-    </key>
-    <key name="ExtractSuperBase.RECENT_KEYS">
-      <recent name="web.dao" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="web.dao" />
-      <recent name="web.service" />
-    </key>
-  </component>
-  <component name="RunAnythingCache">
-    <option name="myCommands">
-      <command value="mvn clean install:install" />
-    </option>
-  </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.67">
+    <configuration name="PP_2_3_1_spring_mvc_hibernate-endpoints_1 | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/PP_2_3_1_spring_mvc_hibernate-endpoints_1.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="PP_2_3_1_spring_mvc_hibernate-endpoints_2 | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/PP_2_3_1_spring_mvc_hibernate-endpoints_2.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="get-requests | GET request with a header" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/get-requests.http" requestIdentifier="GET request with a header" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="get-requests | GET request with environment variables" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/get-requests.http" index="3" requestIdentifier="GET request with environment variables" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="get-requests | GET request with parameter" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/get-requests.http" index="2" requestIdentifier="GET request with parameter" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="Tomcat 9.0.67" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.67" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
+        <artifact name="PP_2.3.1_spring-mvc-hibernate:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/PP_2_3_1_spring_mvc_hibernate_war" />
+          </settings>
+        </artifact>
         <artifact name="PP_2.3.1_spring-mvc-hibernate:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/PP_2_3_1_spring_mvc_hibernate_war_exploded" />
@@ -136,7 +86,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="d217193f-4fed-45ee-897c-d9c965fcda60" />
+        <option name="BASE_DIRECTORY_NAME" value="2c7daff3-e30e-4203-852d-5eba394b303b" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -144,7 +94,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="50387" />
+        <option name="DEBUG_PORT" value="63465" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -209,188 +159,34 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
+          <artifact name="PP_2.3.1_spring-mvc-hibernate:war" />
           <artifact name="PP_2.3.1_spring-mvc-hibernate:war exploded" />
         </option>
       </method>
     </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
-      <deployment />
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="1b2d9db7-1c89-4df9-bed5-b57bcbe9850b" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="50387" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="LOCAL" value="false" />
-      <deployment />
-      <server-settings>
-        <data>
-          <option name="targets">
-            <list>
-              <WatchedTargetModelImpl>
-                <option name="name" value="CONTEXT_XML" />
-                <name>CONTEXT_XML</name>
-              </WatchedTargetModelImpl>
-              <StagingTargetModelImpl>
-                <option name="name" value="STAGING" />
-                <name>STAGING</name>
-              </StagingTargetModelImpl>
-            </list>
-          </option>
-          <option name="transportHostId" />
-        </data>
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="TOMCAT_LOCALHOST_LOG_ID" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="50386" />
-        <option name="LOCAL" value="false" />
-      </RunnerSettings>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SpringBeansView">
-    <option name="beanDetailsProportion" value="0.3" />
+    <list>
+      <item itemvalue="HTTP Request.PP_2_3_1_spring_mvc_hibernate-endpoints_1 | #1" />
+      <item itemvalue="HTTP Request.PP_2_3_1_spring_mvc_hibernate-endpoints_2 | #1" />
+      <item itemvalue="HTTP Request.get-requests | GET request with a header" />
+      <item itemvalue="HTTP Request.get-requests | GET request with environment variables" />
+      <item itemvalue="HTTP Request.get-requests | GET request with parameter" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.67" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.get-requests | GET request with environment variables" />
+        <item itemvalue="HTTP Request.get-requests | GET request with parameter" />
+        <item itemvalue="HTTP Request.get-requests | GET request with a header" />
+        <item itemvalue="HTTP Request.PP_2_3_1_spring_mvc_hibernate-endpoints_2 | #1" />
+        <item itemvalue="HTTP Request.PP_2_3_1_spring_mvc_hibernate-endpoints_1 | #1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="d04c7495-5bed-4370-8e2a-b3f3f9fa9605" name="Changes" comment="" />
-      <created>1666588841631</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1666588841631</updated>
-      <workItem from="1666588843152" duration="4867000" />
-      <workItem from="1666593753909" duration="5463000" />
-      <workItem from="1666611316517" duration="30196000" />
-      <workItem from="1666782684567" duration="6520000" />
-    </task>
-    <task id="LOCAL-00001" summary="ver.0.01">
-      <created>1666615105106</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1666615105106</updated>
-    </task>
-    <task id="LOCAL-00002" summary="ver.0.1">
-      <created>1666686043623</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1666686043623</updated>
-    </task>
-    <task id="LOCAL-00003" summary="ver.0.1">
-      <created>1666686067977</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1666686067977</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ver.0.01" />
-    <MESSAGE value="ver.0.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="ver.0.1" />
+    <MESSAGE value="ver.0.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="ver.0.3" />
   </component>
 </project>

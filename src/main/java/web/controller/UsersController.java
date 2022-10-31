@@ -29,7 +29,7 @@ public class UsersController {
     @GetMapping(value = "/new")
     public String newUser(ModelMap modelMap) {
         modelMap.addAttribute("user", new User());
-        return "/new.html";
+        return "new";
     }
 
     @PostMapping(value = "/new")
@@ -39,7 +39,7 @@ public class UsersController {
     }
 
     @GetMapping(value = "/edit/{id}")
-    public String editUser(@PathVariable("id") long id, ModelMap modelMap) {
+    public String editUser(@PathVariable("id") Long id, ModelMap modelMap) {
         User user = userService.getById(id);
         modelMap.addAttribute("user", user);
         return "editUser";
@@ -52,9 +52,9 @@ public class UsersController {
     }
 
     @GetMapping(value = "/delete/{id}")
-    public String deleteUser(@PathVariable("id") long id) {
-        User user = userService.getById(id);
-        userService.delete(user);
+    public String deleteUser(@PathVariable("id") Long id) {
+//        User user = userService.getById(id);
+        userService.delete(id);
         return "redirect:/user/";
     }
 }

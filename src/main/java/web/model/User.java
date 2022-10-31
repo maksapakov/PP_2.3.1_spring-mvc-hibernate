@@ -26,10 +26,10 @@ public class User {
     @Column(name = "lastName")
     private String lastName;
 
-    @Column(name = "Age")
+    @Column(name = "age")
     private byte age;
 
-    @Column(name = "Email")
+    @Column(name = "email")
     private String email;
 
     public String getName() {

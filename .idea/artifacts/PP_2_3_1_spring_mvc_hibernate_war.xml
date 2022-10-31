@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="PP_2.3.1_spring-mvc-hibernate:war">
-    <output-path>$PROJECT_DIR$/out/artifacts/PP_2_3_1_spring_mvc_hibernate_war</output-path>
-    <root id="archive" name="PP_2.3.1_spring-mvc-hibernate_war.war">
-      <element id="artifact" artifact-name="PP_2.3.1_spring-mvc-hibernate:war exploded" />
-    </root>
-  </artifact>
-</component>

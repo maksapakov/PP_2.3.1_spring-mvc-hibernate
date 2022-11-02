@@ -7,8 +7,6 @@ import org.springframework.web.bind.annotation.*;
 import web.model.User;
 import web.service.UserService;
 
-import java.util.List;
-
 @Controller
 @RequestMapping("/user")
 public class UsersController {
@@ -21,8 +19,7 @@ public class UsersController {
 
     @GetMapping()
     public String listUser(ModelMap modelMap) {
-        List<User> list = userService.getAllUsers();
-        modelMap.addAttribute("list",list);
+        modelMap.addAttribute("list",userService.getAllUsers());
         return "userList";
     }
 
@@ -40,8 +37,7 @@ public class UsersController {
 
     @GetMapping(value = "/edit/{id}")
     public String editUser(@PathVariable("id") Long id, ModelMap modelMap) {
-        User user = userService.getById(id);
-        modelMap.addAttribute("user", user);
+        modelMap.addAttribute("user", userService.getById(id));
         return "editUser";
     }
 
@@ -53,7 +49,6 @@ public class UsersController {
 
     @GetMapping(value = "/delete/{id}")
     public String deleteUser(@PathVariable("id") Long id) {
-//        User user = userService.getById(id);
         userService.delete(id);
         return "redirect:/user/";
     }
